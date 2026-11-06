@@ -2,7 +2,7 @@
 
 **Oracle APEX and IoT produce monitoring system**
 
-ROTSPY is a hackathon prototype that combines environmental sensor readings and webcam based image analysis to help track produce freshness. The project was built by **The Infinity Coders** for INO AUG Xcelerate 2025.
+ROTSPY is a hackathon prototype that combines environmental sensor readings and webcam based image analysis to help track produce freshness. The project was built by **The Infinity Coders** for INOAUG Xcelerate 2025.
 
 [Watch the ROTSPY demo video on LinkedIn](https://lnkd.in/p/geaZs_vM)
 

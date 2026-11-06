@@ -17,10 +17,7 @@ Produce can spoil between manual inspections. ROTSPY explores a monitoring workf
 3. Oracle APEX provides the dashboard and coordinates data and status updates.
 4. The system calculates a ROTScore and sends email alerts that support the recipient workflow.
 
-The project materials describe these score bands:
-- **1–5:** Fresh
-- **7–8:** Offer to NGOs for donation
-- **9–10:** Route to fertilizer companies for recycling
+The screenshots show sensor trends, ROTScore history, and freshness notifications. The status labels vary between views, so confirm the final score-to-status rules before relying on exact thresholds.
 
 ## System overview
 
@@ -35,6 +32,20 @@ flowchart LR
     F --> G[Email alerts]
     G --> H[Owner, NGO, or fertilizer recipient]
 ```
+
+## Screenshots
+
+### Sensor trends
+
+![ROTSPY sensor trends dashboard](sensor-trends.png)
+
+### ROTScore history
+
+![ROTSPY ROTScore graph and sensor history](rotscore-history.png)
+
+### Freshness notifications
+
+![ROTSPY freshness notification panel](freshness-alerts.png)
 
 ## Technologies
 
@@ -64,7 +75,7 @@ The Infinity Coders
 
 ## Repository contents
 
-This repository is a project showcase with the overview and demo link. The Oracle APEX application export, Arduino firmware, and deployment configuration are not included here. The APEX link previously used for the project contains a temporary session value, so this repository links to the recorded demo instead.
+This repository is a project showcase with screenshots and the demo link. The Oracle APEX application export, Arduino firmware, and deployment configuration are not included here. The APEX link previously used for the project contains a temporary session value, so this repository links to the recorded demo instead.
 
 ## Notes
 

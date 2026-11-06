@@ -2,7 +2,7 @@
 
 **Oracle APEX and IoT produce monitoring system**
 
-ROTSPY is a hackathon prototype that combines environmental sensor readings and webcam based image analysis to help track produce freshness. The project was built by **The Infinity Coders** for INOAUG Xcelerate 2025.
+ROTSPY is a hackathon prototype that combines environmental sensor readings and webcam based image analysis to help track produce freshness. The project was built by **The Infinity Coders** for INO AUG Xcelerate 2025.
 
 [Watch the ROTSPY demo video on LinkedIn](https://lnkd.in/p/geaZs_vM)
 
@@ -17,7 +17,33 @@ Produce can spoil between manual inspections. ROTSPY explores a monitoring workf
 3. Oracle APEX provides the dashboard and coordinates data and status updates.
 4. The system calculates a ROTScore and sends email alerts that support the recipient workflow.
 
-The screenshots show sensor trends, ROTScore history, and freshness notifications. The status labels vary between views, so confirm the final score-to-status rules before relying on exact thresholds.
+The screenshots show status labels that vary between views. Confirm the final score-to-status rules before relying on exact thresholds.
+
+## Screenshots
+
+### Container overview
+
+![ROTSPY container overview](./all-containers.png)
+
+### About the project
+
+![ROTSPY About Us page](./about-us.png)
+
+### Live sensor data
+
+![ROTSPY live sensor data dashboard](./realtime-data.png)
+
+### Sensor trends
+
+![ROTSPY sensor trends dashboard](./sensor-trends.png)
+
+### ROTScore history
+
+![ROTSPY ROTScore graph and sensor history](./rotscore-history.png)
+
+### Freshness notifications
+
+![ROTSPY freshness notification panel](./freshness-alerts.png)
 
 ## System overview
 
@@ -32,20 +58,6 @@ flowchart LR
     F --> G[Email alerts]
     G --> H[Owner, NGO, or fertilizer recipient]
 ```
-
-## Screenshots
-
-### Sensor trends
-
-![ROTSPY sensor trends dashboard](sensor-trends.png)
-
-### ROTScore history
-
-![ROTSPY ROTScore graph and sensor history](rotscore-history.png)
-
-### Freshness notifications
-
-![ROTSPY freshness notification panel](freshness-alerts.png)
 
 ## Technologies
 
@@ -76,7 +88,3 @@ The Infinity Coders
 ## Repository contents
 
 This repository is a project showcase with screenshots and the demo link. The Oracle APEX application export, Arduino firmware, and deployment configuration are not included here. The APEX link previously used for the project contains a temporary session value, so this repository links to the recorded demo instead.
-
-## Notes
-
-ROTSPY is a hackathon prototype. The materials describe the project flow and intended recipient workflow; they do not provide a public application export or reproducible deployment steps.
